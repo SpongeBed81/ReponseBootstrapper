@@ -39,6 +39,7 @@ namespace ReponseBootstrapper
             gunaButton3.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
             gunaButton2.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
             gunaButton1.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
+            //font yükleyici sistemi götünden sikeyim programı çökertiyor başka bi alternatifi yoksa yazın dm den amk sikeyim böyle işi
         }
         Point lastPoint;
         private bool inCooldown = false;
